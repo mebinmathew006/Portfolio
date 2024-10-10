@@ -581,7 +581,7 @@
           emailjs.sendForm('service_12njudi', 'template_phzrgn7', this)
             .then(() => {
               alert('Successfully Send the Message');
-              location.reload();
+              document.getElementById("name-field").value='';
             }, (error) => {
               alert('Failed to Send the Message');
             });
