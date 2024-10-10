@@ -582,6 +582,8 @@
             .then(() => {
               alert('Successfully Send the Message');
               document.getElementById("name-field").value='';
+              document.getElementById("message-field").value='';
+              document.getElementById("email-field").value='';
             }, (error) => {
               alert('Failed to Send the Message');
             });
